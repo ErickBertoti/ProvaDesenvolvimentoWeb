@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color: #171214;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #home {
+    background-color: #CAFAD9;
+    padding: 40px;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'Abel';
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+  }
+
+
+  #home p{
+    float: left;
+    max-width: 1200px;
+    font-size: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+  #home img{
+    width: 25%;
+    float: right; 
+    display: flex; }
+  
+  /* Header */
+
+  
+  #topo {
+    background-color: #ffffff;
+    padding: 15px;
+    overflow: hidden;
+  
+    font-family: 'Abel';
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  #topo .menu ul {
+    list-style: none;
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  #topo .menu li {
+    display: inline-block;
+    padding: 15px;
+  }
+
+  #topo .menu img {
+    width: 10px;
+  }
+  
+  .menu ul li a {
+    color: #444;
+  }
+  
+  .menu li a:hover {
+    color: #7622D7;
+  }
+  
+  #topo .logo {
+    float: left;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  #topo img {
+    vertical-align: middle;
+  }
+  
+  #topo .menu {
+    float: middle;
+    margin-left: 500px;
+  }
+
+  #contato {
+    background-color: #ffffff;
+    font-family: 'Abel';
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 30px;
+  }
+
+ 
+  #contato img {
+    width: 20px;
+  }
+
+  #contato.email{
+    float: left;
+  }
+
+  #contato .redes{
+    float: right;
+    margin-bottom: 300px;
+  }
+
